@@ -1,0 +1,27 @@
+.autocomplete {
+    position: relative;
+}
+
+.list-group {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 1000;
+    margin-top: 4px;
+    padding-left: 0;
+}
+
+.list-group-item {
+    cursor: pointer;
+    padding: 8px;
+    font-size: 14px;
+}
+
+.list-group-item:hover {
+    background-color: #f0f0f0;
+}
